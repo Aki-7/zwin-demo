@@ -1,0 +1,40 @@
+= SIGGRAPH 2023
+
+== Setup
+
+* Follow https://www.zwin.dev/getting_started/installation
+* Use release.yaml
+* Install latest blender. (Install with apt is not sufficient)
+** To `/usr/local/`. See config.toml.
+
+== Assets
+
+* https://poly.pizza/search/animal
+** scale: 0.06
+* https://skfb.ly/oEnxr
+** scale: 0.2
+
+== Configure Desktop Entry
+
+Add these files
+
+* `~/.local/share/applications/zen-object-viewer.desktop`
+* `~/.local/share/applications/zennist-gltf-viewer.desktop`
+* `~/.local/share/applications/zennist-gltf-space.desktop`
+* `~/.local/share/mime/packages/gltf.xml`
+
+[source]
+.~/.config/mimeapps.list
+----
+[Default Applications]
+model/stl=zen-object-viewer.desktop
+model/gltf+json=zennist-gltf-viewer.desktop
+----
+
+[source,shell]
+----
+$ update-mime-database ~/.local/share/mime
+----
+
+== Config
+* Use `config.toml`

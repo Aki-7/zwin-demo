@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="model/gltf-binary">
+    <comment>glTF model</comment>
+    <acronym>glTF</acronym>
+    <expanded-acronym>GL Transmission Format</expanded-acronym>
+    <generic-icon name="image-x-generic"/>
+    <magic>
+      <match type="string" value="glTF" offset="0"/>
+    </magic>
+    <glob pattern="*.glb"/>
+  </mime-type>
+  <mime-type type="model/gltf+json">
+    <comment>glTF model</comment>
+    <acronym>glTF</acronym>
+    <expanded-acronym>GL Transmission Format</expanded-acronym>
+    <generic-icon name="image-x-generic"/>
+    <sub-class-of type="application/json"/>
+    <glob pattern="*.gltf"/>
+  </mime-type>
+</mime-info>

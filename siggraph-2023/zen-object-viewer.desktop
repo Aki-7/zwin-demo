@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Zen Object Viewer
+Exec=/usr/local/bin/zen-object-viewer %U
+Terminal=true
+Type=Application
+MimeType=model/stl

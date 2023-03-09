@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Zennist glTF Viewer
+Exec=/usr/local/bin/zennist-gltf-viewer %U
+Terminal=true
+Type=Application
+MimeType=model/gltf+json
+

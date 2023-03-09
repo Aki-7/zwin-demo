@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Zennist glTF Space
+Exec=/usr/local/bin/zennist-gltf-space %U
+Terminal=true
+Type=Application
+MimeType=model/gltf+json
